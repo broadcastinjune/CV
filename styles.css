@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(0, 238, 255, 0.507);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border: 20px;
+    border-color: black;
+}
+
+#self {
+    border: 20px;
+}
+.flex-container img {
+    margin: 2px;
+    padding: 10px;
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+}
